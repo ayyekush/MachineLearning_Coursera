@@ -1,0 +1,5 @@
+def sd(x):
+    sm=0
+    for i in range(m):
+        sm+=(x[i]-mean)**2
+    sm/=m
