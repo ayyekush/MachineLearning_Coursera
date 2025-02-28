@@ -69,7 +69,8 @@ def plt_linear(X_train, Y_train, prediction_tf, prediction_np):
     ax[1].set_title("Numpy prediction",fontsize='xx-large')
     plt.show()
     
-    
+print("hello world ")
+
 def plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg):
     fig,ax = plt.subplots(1,2,figsize=(16,4))
 
